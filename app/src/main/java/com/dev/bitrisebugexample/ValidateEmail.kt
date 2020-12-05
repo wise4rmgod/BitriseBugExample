@@ -15,10 +15,12 @@ object Validate {
     }
 
     fun checkLengthOfWord(word: String): String {
-        if (word.length <= 7)
+        if (word.length <= 7) {
             return word
-        else
-            return "Error"
+        } else {
+            return "it is an Error"
+        }
+
     }
 
 }

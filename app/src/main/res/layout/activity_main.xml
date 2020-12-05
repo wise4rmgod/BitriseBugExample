@@ -79,7 +79,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="30dp"
-        android:text="send"
-        app:layout_constraintTop_toBottomOf="@id/textdesc" />
+        android:text="send" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
