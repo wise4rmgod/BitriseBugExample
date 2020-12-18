@@ -18,7 +18,7 @@ class ValidateEmailTest() {
 
     @Test
     fun checkLengthOfWord() {
-        val result = Validate.checkLengthOfWord("johnppprrppppp")
-        assertThat(result).hasLength(7)
+        val result = Validate.checkLengthOfWord("john")
+        assertThat(result).hasLength(4)
     }
 }
