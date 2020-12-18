@@ -12,7 +12,7 @@ class ValidateEmailTest() {
     @Test
     fun checkForSymbol() {
 
-        val result = Validate.checkEmail("wise@")
+        val result = Validate.checkEmail("wise@s")
         assertThat(result).contains("@")
     }
 
