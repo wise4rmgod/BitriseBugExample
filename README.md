@@ -1,2 +1,2 @@
 # BitriseBugExample
-A Sample project I use in testing mot of Bitrise features/ Steps
+A Sample project I use in testing most of Bitrise features/ Steps and teach to other devs too
