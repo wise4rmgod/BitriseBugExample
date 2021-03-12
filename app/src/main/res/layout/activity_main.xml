@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     android:focusableInTouchMode="true"
     tools:context=".MainActivity">
 
@@ -26,7 +25,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:hint="@string/topic">
+        android:hint="Topic">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/topic"
