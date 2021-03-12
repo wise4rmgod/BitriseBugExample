@@ -15,9 +15,9 @@ class MainActivity : AppCompatActivity() {
             Validate.checkLengthOfWord(description.text.toString())
         }
 // Snippet-1
-        john.filter{ it.isLetter()}
-            .map{ it }
-            .filter{ it > 10.toChar() }
+        john.filter{it.isLetter()}
+            .map{it}
+            .filter{it > 10.toChar()}
             .min()
 
     }
